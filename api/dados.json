@@ -1,0 +1,43 @@
+{
+  "livros": [
+    {
+      "id": 1,
+      "titulo": "Sla",
+      "autor": "Eu",
+      "ano": 2012,
+      "disponivel": true
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Teste",
+      "email": "teste@teste.com",
+      "senhaHash": "bd77e3e7aa3e5bef697f75adc3b36512:2ef1ba20fecb3bab83c0124f46cf60de7cdedf1f8be6a2f60a2bff37983e009c2e2716f1b79007d0d07b4824ae4013c4bdee6ffb6ab8d40f1da4d391c78c562b"
+    },
+    {
+      "id": 2,
+      "nome": "Teste1",
+      "email": "teste@teste1.com",
+      "senhaHash": "541d0129ba42174187e5f94f20260ab2:76fffd8c8249a4f36d3cdd114a7a2e1b369c870828c53a09777e7a1ddf3c1c9cdfb2e6f819bcd48716ca32744cecf1fc11689f2287d601d964c57f03127730f8"
+    }
+  ],
+  "emprestimos": [
+    {
+      "id": 1,
+      "id_livro": 1,
+      "id_usuario": 1,
+      "data_emprestimo": "2026-11-22T20:51:40.761Z",
+      "devolvido": true,
+      "data_devolucao": "2026-11-22T20:51:46.148Z"
+    },
+    {
+      "id": 2,
+      "id_livro": 1,
+      "id_usuario": 2,
+      "data_emprestimo": "2026-11-22T21:06:24.549Z",
+      "devolvido": true,
+      "data_devolucao": "2026-11-22T21:19:00.449Z"
+    }
+  ]
+}
