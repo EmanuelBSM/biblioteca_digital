@@ -6,6 +6,13 @@
       "autor": "Eu",
       "ano": 2012,
       "disponivel": true
+    },
+    {
+      "id": 2,
+      "titulo": "teste2",
+      "autor": "teste41",
+      "ano": 1638,
+      "disponivel": true
     }
   ],
   "usuarios": [
@@ -38,6 +45,14 @@
       "data_emprestimo": "2026-11-22T21:06:24.549Z",
       "devolvido": true,
       "data_devolucao": "2026-11-22T21:19:00.449Z"
+    },
+    {
+      "id": 3,
+      "id_livro": 2,
+      "id_usuario": 1,
+      "data_emprestimo": "2026-11-25T02:20:10.630Z",
+      "devolvido": true,
+      "data_devolucao": "2026-11-25T02:20:41.257Z"
     }
   ]
 }
